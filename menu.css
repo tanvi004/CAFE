@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color:#0f1728;
+    
+}
+/* Style for all buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Style for the active button */
+.active {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Hover effect */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* CSS for the special launch section */
+#launch {
+    padding: 20px;
+    background-color: #0f1728;
+  }
+  
+  /* Style for the heading */
+  #launch h1 {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for each product item */
+  #launch .col-lg-6 {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color:#0f1728;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the product image */
+  #launch .col-lg-6 img {
+    color: #fea116;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Style for the product details */
+  #launch .col-lg-6 .flex-column {
+    flex: 1;
+  }
+  
+  /* Style for the product name */
+  #launch .col-lg-6 h5 {
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the product price */
+  #launch .col-lg-6 .text-primary {
+    font-weight: bold;
+  }
+  
+  /* Style for the product description */
+  #launch .col-lg-6 small {
+    color: #ffffff;
+    font-size: medium;
+  }
+  
+  /* Hover effect for product items */
+  #launch .col-lg-6:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fea116;
+  }
+
+
+  #dinner {
+    padding: 20px;
+    background-color:#0f1728;
+  }
+  
+  /* Style for the heading */
+  #dinner h1 {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for each product item */
+  #dinner .col-lg-6 {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color:#0f1728;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the product image */
+  #dinnerh .col-lg-6 img {
+    color: #fea116;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Style for the product details */
+  #dinner .col-lg-6 .flex-column {
+    flex: 1;
+  }
+  
+  /* Style for the product name */
+  #dinner .col-lg-6 h5 {
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the product price */
+  #dinner .col-lg-6 .text-primary {
+    font-weight: bold;
+  }
+  
+  /* Style for the product description */
+  #dinner .col-lg-6 small {
+    color: #ffffff;
+    font-size: medium;
+  }
+  
+  /* Hover effect for product items */
+  #dinner .col-lg-6:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fea116;
+  }
+
+
+  #breakfast {
+    padding: 20px;
+    background-color: #0f1728;
+  }
+  
+  /* Style for the heading */
+  #launch h1 {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for each product item */
+  #breakfast .col-lg-6 {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color:#0f1728;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the product image */
+  #breakfast .col-lg-6 img {
+    color: #fea116;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Style for the product details */
+  #breakfast .col-lg-6 .flex-column {
+    flex: 1;
+  }
+  
+  /* Style for the product name */
+  #breakfast .col-lg-6 h5 {
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the product price */
+  #breakfast .col-lg-6 .text-primary {
+    font-weight: bold;
+  }
+  
+  /* Style for the product description */
+  #breakfast .col-lg-6 small {
+    color: #ffffff;
+    font-size: medium;
+  }
+  
+  /* Hover effect for product items */
+  #breakfast .col-lg-6:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fea116;
+  }
+
+  nav{
+    background: #0f1728;
+    height: 80px;
+    width: 100%;
+  }
+  label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    margin-left: -70px;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  }
+  section{
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+  }
+  
+
+
+
+
+  
+
+footer{
+    background-color: #0f1728;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color:#111;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color:white;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color:#0f1728;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}

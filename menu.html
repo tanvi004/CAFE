@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--Icon Font Stylesheet-->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+         <!--Customized bootstrap stylesheet-->
+         <link rel="stylesheet" href="bootstrap.min.css">
+    
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>    
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    
+    <label class="logo">
+        <i class="fa-solid fa-utensils" style="color: #fea116;">  CAFE LA UNICO</i>
+        </label>
+    <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#service">Services</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="booktable.html">Book Table</a></li>
+    </ul>
+  </nav>
+    <section id="menu" class="menu" style="color: aliceblue;">
+
+    <section>
+         <div class="account-form">
+          <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
+                    <h1 class="mb-5">Most Popular Items</h1>
+                </div>
+                <!-- <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">  -->
+                    
+          <div class="buttons">
+            <span class="btn active launch-btn">Special Launch</span>
+            <span class="btn dinner-btn">Lovely Dinner</span>
+            <span class="btn breakfast-btn">Popular Breakfast</span>
+        </div>
+                    
+    
+                    <div class="launch" id="launch">
+                        <div class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <h1>Special Launch</h1>
+                                <div class="col-lg-6">
+                                    
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://bellyfull.net/wp-content/uploads/2021/02/Stuffed-Peppers-blog-featured.jpg" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between pb-2">
+                                                <span>Cheesiano Shots</span>
+                                                <span class="text-primary">Rs. 330</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                               Stuffed Bell Peppers with cheese in cigar roll served in shot glass with chef speical sauce. 
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://tse2.mm.bing.net/th?id=OIP.6TbcBRJPaXh4W8bMqNjA3gHaLH&pid=Api&P=0&h=180" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Contadina</span>
+                                                <span class="text-primary">Rs.290</span>
+                                            </h5>
+                                            <small class="fst-italic" >
+                                                Fresh tomatoes, garlic, basil, sun-drid tomatoes, onions and green beans dressed with extra vigin oil.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://i.pinimg.com/originals/a0/0d/51/a00d51aaea9c7db42b4205acccb862b0.jpg" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Caesar Salad</span>
+                                                <span class="text-primary">Rs.350</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                                Tender lettuce leaves mixed with special dressing black olives, served with oven roasted croutons with mayonnaise, garnished with parmesan cheese.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://tse2.mm.bing.net/th?id=OIP.qpCn4FJz7jeuRYKUmJDyyAHaLH&pid=Api&P=0&h=1800" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Classic Swiss</span>
+                                                <span class="text-primary">Rs.470</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                                Traditional fondue made with emmental and gruyere cheese with hint of garlic.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </div>
+    
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://tse1.mm.bing.net/th?id=OIP.wkzMamyeXyg7C0yOs4nUBgHaJo&pid=Api&P=0&h=180" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Mexican bhel</span>
+                                                <span class="text-primary">Rs.250</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                               Fusion bhel made from mexican sauces and vegetables.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://tse2.mm.bing.net/th?id=OIP.VtcAddKJCVnBcii0KfLVpgHaE6&pid=Api&P=0&h=180" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Tandoori Broccoli</span>
+                                                <span class="text-primary">Rs.410</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                               Marinated Broccoli in tandoori masala, medium spicy flavor.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </div>
+    
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://tse2.mm.bing.net/th?id=OIP.TSFGnZY6kV9ISwey9GvGLQHaLH&pid=Api&P=0&h=180" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Tabasco</span>
+                                                <span class="text-primary">Rs.510</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                                Spicy Tomato sauce with mozerella, jalapeno, sun-dried tomatoesand tabasco
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://tse2.mm.bing.net/th?id=OIP.QK59VNaM9acgphmbDvWzsgHaG_&pid=Api&P=0&h=180" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Pav Bhaji Pizza</span>
+                                                <span class="text-primary">Rs.460</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                                Pizza with a desi twist, medium spicy bhaji on top of crispy pizza base.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                    <div class="dinner" id="dinner">
+                        <div class="tab-pane fade show p-0 active">
+    
+                                
+                            <div class="row g-4">
+                                <h1>Lovely Dinner</h1>
+                               
+                            </div>
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://tse1.mm.bing.net/th?id=OIP.bfbbeNHqa88abg5hERuiOwHaLH&pid=Api&P=0&h=180" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Masala Mafia</span>
+                                                <span class="text-primary">Rs.550</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                              Your choice pasta in a spicy sauce, cooked to perfection with red-yellow capsicum, and vegies tossed in fresh cream.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://tse3.mm.bing.net/th?id=OIP.1wpxGa0zyaNmds701WgMMQHaE7&pid=Api&P=0&h=180" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Crazy Cheezy Naanza</span>
+                                                <span class="text-primary">Rs.460</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                              Chopped onion & bell peppers with desi Indian masala & topped with cheese and garnished with cheese on naan base. 
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </div>
+    
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://tse4.mm.bing.net/th?id=OIP.0MmI2kN7l-QurcoYcPZT5wHaEK&pid=Api&P=0&h=180" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Pahadi Paneer Tikka</span>
+                                                <span class="text-primary">Rs.380</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                              Smoky cottage cheese squares roasted in peppery aroma of coriander and mint.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://www.cookwithmanali.com/wp-content/uploads/2022/11/Tandoori-Mushroom-676x1024.jpg" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Bhare Hue Kumbh</span>
+                                                <span class="text-primary">Rs.360</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                               Tandoori smoked mushrooms stuffed with the chicest seasonings.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </div>
+    
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://tse1.mm.bing.net/th?id=OIP.xrL83u798IarQZFpV6i-qQHaGA&pid=Api&P=0&h=180" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Paneer Lollipop</span>
+                                                <span class="text-primary">Rs.410</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                               Finger cut paneer mixed with exotic sauce, garnished with sesame.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://tse4.mm.bing.net/th?id=OIP.Qc-UvmnOcLj3Sc3MWt9JOAHaFj&pid=Api&P=0&h=180" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Cheesy Jalapeno Sticks</span>
+                                                <span class="text-primary">Rs.360</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                               Sticks of Jalapeno stuffed with cheese, deep fried and served with thousand iland sauce.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </div>
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://i.pinimg.com/originals/c0/b4/82/c0b48240fd2c38818d2dac6c664cbddd.jpg" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Stone Grill Sizzler</span>
+                                                <span class="text-primary">Rs.490</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                             Rice and noodles tossed in exotic sauce and vegetables with black pepper sauce.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                
+                            </div>
+    
+                          
+                        </div>
+    
+                    <div class="breakfast" id="breakfast">
+                        <div class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <h1>Popular Breakfast</h1>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://www.thereciperebel.com/wp-content/uploads/2020/07/best-burgers-www.thereciperebel.com-1200-13-of-18-736x1104.jpg" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Sweet Corn Seekh Kebab</span>
+                                                <span class="text-primary">$100</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                               Minced cottage cheese and corn mixed with spices wrapped on to skewars & topped with cheese.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://tse4.mm.bing.net/th?id=OIP.dnMcqkm71D84mJN7tQeDVAHaEK&pid=Api&P=0&h=180" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Schezwan Marbles</span>
+                                                <span class="text-primary">$100</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                                Cheese cornn balls tossed in a chef special sauce.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://tse1.mm.bing.net/th?id=OIP.g6waVklSGYzP3PGAfTh_ywHaDv&pid=Api&P=0&h=180" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Zaika Punjab Ka</span>
+                                                <span class="text-primary">Rs.350</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                                Malai Kofta dipped in fegureek flavored spinach saag                                        </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="http://www.archanaskitchen.com/images/archanaskitchen/1-Author/sneha-archanaskitchen.com/Cheese_Garlic_Naan_Recipe__1600.jpg" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Cheese Oregano Naan</span>
+                                                <span class="text-primary">$100</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                                Cheese stuffed naan, flavoured with garlic that gets its roasted flavour 
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </div>
+    
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://tse4.mm.bing.net/th?id=OIP.RiB5w4_x23GOtXCoRQPfAwHaE7&pid=Api&P=0&h=180" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Kheema Kasturi</span>
+                                                <span class="text-primary">Rs.390</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                            Vegetables diced kheema style gratted paneer & cheese gravy   
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://tse2.mm.bing.net/th?id=OIP.HUV187FsIy4Cos2PYvbAuAHaJo&pid=Api&P=0&h=180" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Pav Bhaji Fondue</span>
+                                                <span class="text-primary">Rs.470</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                            Crispy bits of pav, served with melting pot of bhaji and cheese.    
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </div>
+    
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://tse4.mm.bing.net/th?id=OIP.WdvZAG306auzXRHqy0odQwHaHa&pid=Api&P=0&h=180" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Risotto 4 Formaggi</span>
+                                                <span class="text-primary">Rs.480</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                            Acheese extravaganza- brown rice served with 4 different types of melted cheese.    
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img src="https://tse2.mm.bing.net/th?id=OIP.Qy0etXOS-LWcTFVaYrLnGAHaE7&pid=Api&P=0&h=180" alt="" class="flex-shrink-0 img-fluid rounded" style="width: 50px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between  pb-2">
+                                                <span>Shev Puri Tacos</span>
+                                                <span class="text-primary">Rs.270</span>
+                                            </h5>
+                                            <small class="fst-italic">
+                                               Tortillas stuffed with masala mash potatoes, spicy tangy chutney crispies and onions.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </div>
+    
+                        </div>
+                    </div>
+    
+    
+                </div>
+            </div>
+         </div>
+        </div>
+  
+        <footer>
+            <div class="footerContainer">
+                <div class="socialIcons">
+                    <a href="https://www.facebook.com/laaunico/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/laaunico/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.google.co.in/maps/@19.8639616,75.3532928,14z?entry=ttu"><i class="fa-brands fa-google-plus"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="footerNav">
+                    <ul><li><a href="">Home</a></li>
+                        <li><a href="">News</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">our Team</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="footerBottom">
+                <p>Copyright &copy;2023; Designed by <span class="designer">Noman</span></p>
+            </div>
+        </footer>
+        
+</body>
+<script src="main.js"></script>
+</html>
